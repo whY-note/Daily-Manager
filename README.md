@@ -2,6 +2,7 @@
 
 Currently, Daily Manager is a program for manage your daily todos in **obsidian**.
 
+## Main function
 The main function of Daily Manager is to collect the unfinished todos in your past daily notes and then write them into today's daily note.
 
 For example, if your daily note on Jan 23, 2026 and Jan 24, 2026 are like the following these:
@@ -36,4 +37,3 @@ After running this program, you will get your daily note on Jan 25, 2026 like th
 ```
 
 This is a very easy program, but it is very helpful for us to manage our daily routine.
-

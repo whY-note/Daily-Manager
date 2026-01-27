@@ -10,10 +10,13 @@ class TodoCollector:
         self._end_date = (date.today() - timedelta(days=1)).isoformat() # 默认将终止时间设定为昨天
         self._dir = "./" # 默认是在当前目录
         self._date_today = date.today().isoformat()
+
     def set_dir(self, dir):
         self._dir = dir
+
     def set_start_date(self, start_date):
         self._start_date = start_date
+        
     def set_end_date(self, end_date):
         self._end_date = end_date
     
@@ -65,6 +68,7 @@ class TodoCollector:
                 empty_match = empty_pattern.match(line)
                 # print("match: ", match)
                 # print("empty_match: ", empty_match)
+
                 if match and not empty_match:
                     # 只含有符号'- [ ] '，但是后面没有内容 的行就不加到todo_list里面
                     todo_list.append({
