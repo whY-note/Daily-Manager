@@ -35,5 +35,5 @@ After running this program, you will get your daily note on Jan 25, 2026 like th
 - [ ] 写一篇博客
 ```
 
-This is a very easy program, but very helpful for us to manage our daily routine.
+This is a very easy program, but it is very helpful for us to manage our daily routine.
 
