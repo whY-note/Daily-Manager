@@ -1,4 +1,4 @@
-from todo_collector import TodoCollector
+from src.todo_collector import TodoCollector
 
 def collect_todos(dir: str = "./"):
     collector = TodoCollector()

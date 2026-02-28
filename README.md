@@ -37,3 +37,8 @@ After running this program, you will get your daily note on Jan 25, 2026 like th
 ```
 
 This is a very easy program, but it is very helpful for us to manage our daily routine.
+
+## How to use?
+```bash
+python collect_todos.py --dir the directory of your daily schedule
+```

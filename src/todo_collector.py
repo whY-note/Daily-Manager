@@ -80,7 +80,7 @@ class TodoCollector:
         '''将未完成的todo_list写入今天的日程'''
         with open(self._today_md_path, "a", encoding="utf-8") as f:
             for todo in todo_list:
-                f.write(f"- [ ] {todo["text"]}\n")
+                f.write(f"- [ ] {todo['text']}\n")
 
     
 if __name__ == "__main__":
